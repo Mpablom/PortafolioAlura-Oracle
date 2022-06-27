@@ -1,0 +1,113 @@
+.menu__list   a.menu__list__item__activo{
+    font-weight: bold;
+}
+.menu__list{
+    float: right;
+}
+
+
+header::before{
+    content: "";
+    display: block;
+    margin-bottom: 80px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background: #F5F5F5;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;  
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.img_logo{
+    width: 33px;
+    height: 33px;
+}
+
+.menu__title::before {
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    content: "Pablo Moya";
+    margin-left: 10px;
+}
+.menu__list{
+    margin-top: -35px;
+    margin-right: 20px;
+}
+
+.menu__list a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.menu__list a:hover{
+    font-weight: 700;
+    transition: 0.5s;
+}
+/*Mobile*/
+
+@media screen and (max-width: 768px){
+
+    .menu__list__item{
+        display: none;
+    }
+
+    .menu__list a{
+        font-size: 15px;
+    }
+
+    .logo{
+        margin-left: 30px;
+    }
+
+    .menu__title::before {
+        font-size: 15px;
+    }
+
+    .menu__list a.menu__list__item__activo{
+        font-weight: 400;
+        margin-right: 60px;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .menu__list__item{
+        display: none;
+    }
+
+    .menu__list a{
+        font-size: 17px;
+    }
+
+    .menu__title::before {
+        font-size: 17px;
+    }
+    .menu__list__item__activo{
+        margin-right: 60px;
+    }
+}
