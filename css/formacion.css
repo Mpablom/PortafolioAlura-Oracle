@@ -1,0 +1,90 @@
+.academic{
+    padding: 35px 0;
+}
+
+.caja-formacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo-formacion{
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.box-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 1px #464646;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.formacion-imagen{
+    width: 120px;
+
+}
+
+
+.formacion-items{
+    width: 31.33%;
+    
+}
+
+.formacion-descripcion{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #464646;
+    line-height: 25px;
+}
+
+/*Mobile*/
+
+@media screen and (max-width: 768px){
+
+    .formacion{
+        padding: 35px 0 5px 0;
+    }
+
+    .box-imagen{
+        margin-bottom: 12px;
+    }
+
+    .titulo-formacion{
+        font-size: 22px;
+    }
+
+    .formacion-items{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .formacion{
+        padding: 35px 0 5px 0;
+    }
+
+    .box-imagen{
+        margin-bottom: 12px;
+    }
+
+    .titulo-formacion{
+        font-size: 22px;
+    }
+  
+    .formacion-items{
+        width: 47%;
+        margin-bottom: 30px;
+    }
+    
+}

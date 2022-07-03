@@ -1,0 +1,136 @@
+.informacion{
+    padding: 40px 0 35px 0;
+}
+
+.contenido-informacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-informacion{
+    width: 54%;
+}
+
+.informacion-titulo{
+    font-size: 42px;
+    color: #464646;
+    line-height: 45px;
+    text-align: justify;
+}
+
+.informacion-parrafo{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 20px 0;
+    color: #464646;
+    text-align: justify;
+}
+
+.enlaces-informacion{
+    width: 100%;
+    display: flex;
+}
+
+.enlaces-informacion a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;;
+    color: #464646;
+}
+
+.enlaces-informacion i{
+    font-size: 20px;
+    color: #464646;
+    margin-right: 2rem;
+}
+
+.contenido-informacion img{
+    width: 34%;
+    height: 34%;
+    border-radius: 50%;
+    background: rgb(45, 139, 228);
+}
+
+/*Mobile*/
+
+@media screen and (max-width: 768px){
+
+    .contenido-informacion{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    
+    .texto-informacion{
+        width: 100%;
+    }
+
+    .informacion-titulo{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .informacion-parrafo{
+        font-size: 14px;
+        line-height: 16px;
+        margin: 15px 0;
+    }
+
+    .enlaces-informacion{
+        justify-content: space-between;
+    }
+
+    .enlaces-informacion a{
+        font-size: 14px;
+    }
+
+    .enlaces-informacion i{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .contenido-informacion img{
+        width: 45%;
+        height: 45%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .informacion-titulo{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .texto-informacion{
+        width: 65%;
+    }
+
+    .informacion-parrafo{
+        font-size: 1rem;
+        line-height: 19px;
+    }
+
+    .enlaces-informacion{
+        justify-content: space-between;
+    }
+
+    .contenido-informacion img{
+        width: 30%;
+        height: 30%;
+    }
+
+    .enlaces-informacion a{
+        font-size: 16px;
+    }
+
+    .enlaces-informacion i{ 
+        margin: 0;
+    }
+    
+}
