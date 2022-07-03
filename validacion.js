@@ -79,8 +79,8 @@ function validarDatos(){
     } else if(document.formulario.mensaje.value.length <= 500){
         Swal.fire({
             icon: 'success',
-            title: '¡Felicidades!',
-            text: '¡Su mensaje se ha enviado correctamente',
+            title: '¡Muchas Gracias!',
+            text: '¡Su mensaje se ha enviado correctamente, me contactaré con usted a la brevedad',
             showClass: {
                 popup: 'animate__animated animate__fadeInDown'
               },
