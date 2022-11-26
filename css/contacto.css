@@ -1,20 +1,24 @@
 #contacto{
     padding: 35px 0;
 }
+#form{
+    width: 60%;
+    margin-left: 20%;
+}
 
-.formcontato--esquerda{
+.formcontato__center{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .formcontato__img{
     display: block;
     width: 46%;
     height: 500px;
+    border-radius: 360px;
 }
 
 .formcontato__text{
-    width: 52%;
     display: flex;
     flex-direction: column;
 }
@@ -23,14 +27,15 @@
     font-weight: 700;
     font-size: 32px;
     color: #464646;
+    text-align: center;
 }
 
 .formcontato__subtext{
     font-weight: 500;
     font-size: 16px;
     color: #464646;
-    line-height: 20px;
-    text-align: justify;
+    line-height: 2  0px;
+    text-align: center;
     margin: 12px 0;
 }
 
@@ -38,13 +43,11 @@
     border: none;
     width: 100%;
     height: 50px;
-    margin: 10px 0;
     background: #FFFFFF;
-    padding: 0 10px;
-    border-bottom: 2px solid #EDEDED;
+    margin-bottom: 15px;
 }
 
-.formcontato__input:focus, .contacto-textarea:focus{
+.formcontato__input:focus, .contacto_textarea:focus{
     border-bottom: 2px solid #2A7AE4;
     outline: none;
 }
@@ -56,25 +59,29 @@
 .formcontato__textarea{
     border: none;
     width: 100%;
-    margin: 10px 0;
     height: 96px;
     background: #FFFFFF;
-    padding: 5px 10px;
     resize: none;
 }
 
 .formcontato__btn{
     display: flex;
     border: none;
-    justify-content: center;
     font-size: 16px;
-    font-weight: 400;
-    align-items: center;
     padding: 12px 16px;
     background: #2A7AE4;
     color: #FFFFFF;
-    margin: 5px 0 0 0;
+    margin: auto;
+    margin-top: 15px;
     cursor: pointer;
+    transition: all .7s ease-in;
+    box-shadow: 4px 4px 15px 0px lightslategrey;
+}
+.formcontato__btn:hover{
+    transform: scale(1.1);
+    color:#2A7AE4;
+    background: #FFFFFF;
+    border: 1px solid #2A7AE4;   
 }
 
 /*Mobile*/
@@ -115,6 +122,10 @@
 
     .formcontato__title{
         font-size: 22px;
+    }
+    #form{
+        width: 80%;
+        margin-left: 10%;
     }
 
     .formcontato__btn{

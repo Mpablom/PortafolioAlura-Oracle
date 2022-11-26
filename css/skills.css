@@ -5,6 +5,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .skills__title{
@@ -25,11 +27,16 @@
 
 .skills__items{
     width: 15%;
+    margin-bottom: 25px;
     height: 150px;
     background: #FFFFFF;
     padding: 70px 16px 16px;
-    box-shadow: 0px 0px 5px 1px #464646;
+    box-shadow: 4px 4px 15px 0px lightslategrey; 
     /*margin-bottom: 25px;*/
+    transition: all .7s ease-out;
+}
+.skills__items:hover{
+    transform: scale(1.02);
 }
 
 .skills__items i{
@@ -80,5 +87,4 @@
         padding: 50px 16px 16px;
         margin-bottom: 30px;
     }
-
 }

@@ -78,7 +78,7 @@
     
     <!-- Sección sobre mí -->
     <section class="about" id="sobre-mi">
-        <div class="contenedor about">
+        <div class="contenedor__about">
             <div class="texto__about">
                 <h3 class="about__title">Sobre mi</h3>
                 <p class="about__paragraph"> Soy argentino, vivo en la provincia de San Juan. Desde siempre tuve un gusto por la informática y la programación, aunque nunca pude dedicarme a ello.</p>
@@ -89,7 +89,7 @@
 
     <!-- Sección de Skills -->
     <section class="skills" id="skills">
-        <div class="contenedor skills">
+        <div class="contenedor__skills">
             <h3 class="skills__title">Skills</h3>
             <div class="skills__line">
                 <div class="skills__items">
@@ -110,6 +110,21 @@
                 <div class="skills__items">
                     <i class="fa-brands fa-js"></i>
                     <h3>JavaScript</h3>
+                </div>
+
+                <div class="skills__items">
+                    <i class="fa-brands fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+
+                <div class="skills__items">
+                    <i class="fa-brands fa-angular"></i>
+                    <h3>Angular.js</h3>
+                </div>
+
+                <div class="skills__items">
+                    <i class="fa-brands fa-react"></i>
+                    <h3>React.js</h3>
                 </div>
             </div>
         </div>
@@ -211,6 +226,20 @@
                     </div>
                     <img class="img-ahorcado" src="./assets/ahorcado.jpg" alt="Imagen del Ahorcado">
                 </div>
+
+                <div class="alurageek">
+                    <img class="img-alurageek" src="./assets/alurageek.png" alt="Imagen de alurageek">
+                    <div class="texto-alurageek">
+                        <h3>Tienda virtual alurageek</h3>
+                        <p>Página creada con HTML, CSS y JavaScript</p>
+                        <p>Challenge Alura - Oracle ONE</p>
+                        <div class="caja-botones">
+                            <a class="btn-repositorio" href="https://github.com/Mpablom/aluraweek" target="_blank">Repositorio</a>
+                            <a class="btn-demo" href="https://mpablom.github.io/aluraweek/index.html" target="_blank">Ver Demo</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>           
         </div>
     </section>  
@@ -218,7 +247,7 @@
 
     <section class="formcontato" id="contacto">
         <div  class="contenedor contacto">
-            <div class="formcontato--esquerda">
+            <div class="formcontato__center">
                 <img class="formcontato__img" src="assets\contact_image.png">
             </div>
             <div class="formcontato__text">
@@ -238,7 +267,7 @@
         <!-- FOOTER -->
 
         <section class="footer">
-            <div class="contenedor footer">
+            <div class="contenedor__footer">
                 <div class="footer__rodape">
                     <p>Pablo Moya &COPY;</p>
                     <p id="year"></p>

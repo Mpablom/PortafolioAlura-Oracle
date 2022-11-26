@@ -6,6 +6,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .hobbies__title{
@@ -21,8 +23,11 @@
     height: 150px;
     background: #FFFFFF;
     padding: 70px 16px 16px;
-    box-shadow: 0px 0px 5px 1px #464646;
-   
+    box-shadow: 4px 4px 15px 0px lightslategrey;
+    transition: all .7s ease-out; 
+}
+.hobbies__box:hover{
+    transform: scale(1.02);
 }
 
 .hobbies__img{
