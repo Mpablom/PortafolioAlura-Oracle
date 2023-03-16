@@ -1,10 +1,13 @@
-#sobre-mi{
+.about{
     padding: 33px 0;
 }
 .texto__about{
     width: 90%;
 }
-
+.contenedor__about{
+    display: flex;
+    justify-content: center;
+}
 .about__title{
     font-weight: 700;
     font-size: 32px;
@@ -38,9 +41,9 @@
     .about__paragraph{
         font-size: 14px;
         line-height: 16px;
-        text-align: justify;
         width: 90%;
-        margin-left: 5%;
+        margin-left: 3%;
+        text-align: center;
     }
 }
 

@@ -1,4 +1,4 @@
-#skills{
+.skills{
     padding: 35px 0;
 }
 .skills__line{
@@ -30,7 +30,7 @@
     margin-bottom: 25px;
     height: 150px;
     background: #FFFFFF;
-    padding: 70px 16px 16px;
+    padding: 70px 16px;
     box-shadow: 4px 4px 15px 0px lightslategrey; 
     /*margin-bottom: 25px;*/
     transition: all .7s ease-out;
@@ -55,6 +55,7 @@
 
     #skills{
         padding: 35px 0 10px 0;
+        width: 90%;
     }
 
     .skills__title{

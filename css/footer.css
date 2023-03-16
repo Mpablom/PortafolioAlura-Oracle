@@ -1,3 +1,9 @@
+.footer{
+    width: 100%;
+}
+.footer>.contenedor{
+    width: 100%;
+}
 .footer__rodape{
     padding: 20px 0;
     box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);

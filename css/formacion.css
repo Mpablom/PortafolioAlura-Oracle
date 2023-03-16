@@ -1,8 +1,8 @@
-.academic{
+.formacion{
     padding: 35px 0;
 }
 
-.caja-formacion{
+.caja__formacion{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -10,7 +10,7 @@
     margin-left: 5%;
 }
 
-.titulo-formacion{
+.titulo__formacion{
     font-weight: 700;
     font-size: 32px;
     color: #464646;
@@ -18,7 +18,7 @@
     margin-bottom: 25px;
 }
 
-.box-imagen{
+.box__imagen{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,19 +28,19 @@
     margin-bottom: 20px;
     transition: all .7s ease-out;
 }
-.box-imagen:hover{
+.box__imagen:hover{
     transform: scale(1.02);
 }
 
-.formacion-imagen{
+.formacion__imagen{
     width: 120px;
 
 }
-.formacion-items{
+.formacion__items{
     width: 31.33%;
 }
 
-.formacion-descripcion{
+.formacion__descripcion{
     font-weight: 700;
     font-size: 1rem;
     color: #464646;
@@ -52,18 +52,18 @@
 @media screen and (max-width: 768px){
 
     .formacion{
-        padding: 35px 0 5px 0;
+        margin: 0px;
     }
 
-    .box-imagen{
+    .box__imagen{
         margin-bottom: 12px;
     }
 
-    .titulo-formacion{
+    .titulo__formacion{
         font-size: 22px;
     }
 
-    .formacion-items{
+    .formacion__items{
         width: 100%;
         margin-bottom: 30px;
     }
@@ -77,15 +77,15 @@
         padding: 35px 0 5px 0;
     }
 
-    .box-imagen{
+    .box__imagen{
         margin-bottom: 12px;
     }
 
-    .titulo-formacion{
+    .titulo__formacion{
         font-size: 22px;
     }
-  
-    .formacion-items{
+
+    .formacion__items{
         width: 47%;
         margin-bottom: 30px;
     }

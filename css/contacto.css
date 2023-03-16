@@ -1,9 +1,9 @@
-#contacto{
-    padding: 35px 0;
-}
 #form{
     width: 60%;
     margin-left: 20%;
+}
+.contacto{
+    padding: 40px 0;
 }
 
 .formcontato__center{
@@ -13,9 +13,9 @@
 
 .formcontato__img{
     display: block;
-    width: 46%;
+    width: 40%;
     height: 500px;
-    border-radius: 360px;
+    border-radius: 100%;
 }
 
 .formcontato__text{
@@ -76,9 +76,10 @@
     cursor: pointer;
     transition: all .7s ease-in;
     box-shadow: 4px 4px 15px 0px lightslategrey;
+    border-radius: 20px;
 }
 .formcontato__btn:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     color:#2A7AE4;
     background: #FFFFFF;
     border: 1px solid #2A7AE4;   
@@ -98,6 +99,9 @@
 
     .formcontato__text{
         width: 100%;
+    }
+    .formcontato__subtext{
+        width: 90%;
     }
 
     .formcontato__btn{
@@ -133,5 +137,4 @@
         font-weight: 600;
         padding: 10px;
     }
-  
 }

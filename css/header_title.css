@@ -1,5 +1,5 @@
 .informacion{
-    padding: 40px 0 35px 0;
+    padding: 35px 0;
 }
 
 .contenido-informacion{
@@ -51,8 +51,29 @@
 .contenido-informacion img{
     width: 34%;
     height: 34%;
-    border-radius: 50%;
     background: rgb(45, 139, 228);
+    border-radius: 72% 28% 47% 53% / 50% 51% 49% 50% ;
+    animation-name:morph;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+@keyframes morph{
+    0%{
+        border-radius: 72% 28% 47% 53% / 50% 51% 49% 50%  ;
+    }
+    25%{
+        border-radius: 53% 47% 47% 53% / 50% 65% 35% 50% ;
+    }
+    50%{
+        border-radius: 53% 47% 71% 29% / 50% 53% 47% 50%  ;
+    }
+    75%{
+        border-radius: 53% 47% 48% 52% / 25% 53% 47% 75% ;
+    }
+    100%{
+        border-radius: 72% 28% 47% 53% / 50% 51% 49% 50%  ;
+    }
 }
 
 /*Mobile*/
@@ -71,32 +92,32 @@
     .informacion-titulo{
         font-size: 22px;
         line-height: 26px;
+        width: 90%;
     }
 
     .informacion-parrafo{
         font-size: 14px;
         line-height: 16px;
         margin: 15px 0;
+        width: 90%;
     }
 
     .enlaces-informacion{
-        justify-content: space-between;
+        width: 90%;
     }
 
     .enlaces-informacion a{
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .enlaces-informacion i{
-        font-size: 15px;
-        margin: 0;
+        margin-left: 12%;
     }
 
     .contenido-informacion img{
         width: 45%;
-        height: 45%;
         margin-bottom: 1.5rem;
-        margin-left: 30%;
+        margin-left: 25%;
     }
 }
 
