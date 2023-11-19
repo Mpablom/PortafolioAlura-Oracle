@@ -22,7 +22,8 @@
 }
 
 .texto-encriptador, .texto-ahorcado, .texto-alurageek{
-    width: 33%; 
+    width: 33%;
+    text-align: center; 
 }
 
 .texto-encriptador h3, .texto-ahorcado h3, .texto-alurageek h3{
@@ -36,6 +37,7 @@
 .contenido-experiencia img{
     width: 65%;
     height: 400px;
+    margin: auto;
 }
 .contenido-experiencia h3{
     font-weight: 700;
@@ -51,6 +53,7 @@
 
 .caja-botones{
     display: flex;
+    justify-content: center;
 }
 .caja-botones a{
     margin-top: 15px;
@@ -68,8 +71,8 @@
     justify-content: center;
     border: 1px solid #2A7AE4;
     margin: 0 12px 0 0;
-    transition: all .7s ease-in;
-    box-shadow: 4px 4px 15px 0px lightslategrey; 
+    transition: all .3s ease-in;
+    box-shadow: 3px 3px 5px -1px lightslategrey; 
 }
 .btn-repositorio:hover{
     transform: scale(1.1);
@@ -78,7 +81,7 @@
 }
 
 .img-encritador, .img-ahorcado, .img-alurageek {
-    box-shadow: 4px 4px 15px 0px lightslategrey; 
+    box-shadow: 1px 1px 5px -1px lightslategrey; 
     transition: all .9s ease-in-out;
 }
 .img-encritador:hover, .img-ahorcado:hover, .img-alurageek:hover{
@@ -96,7 +99,7 @@
     padding: 11px;
     justify-content: center;
     transition: all .7s ease-in;
-    box-shadow: 4px 4px 15px 0px lightslategrey; 
+    box-shadow: 3px 3px 5px -1px lightslategrey; 
 }
 .btn-demo:hover{
     transform: scale(1.1);

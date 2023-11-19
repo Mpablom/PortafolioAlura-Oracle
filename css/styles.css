@@ -1,8 +1,11 @@
+html{
+    width: 100%;
+}
 *, body{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Raleway';
+    font-family: 'Roboto', sans-serif;
     max-width: 100%;
 }
 
@@ -11,7 +14,7 @@ ol,ul,li{
 }
 
 .contenedor{
-    width: 85%;
+    width: 100%;
     max-width: 100%;
     margin: 0 auto; 
 }

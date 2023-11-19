@@ -4,9 +4,9 @@
 .skills__line{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 90%;
-    margin-left: 5%;
+    justify-content: space-evenly;
+    width: 100%;
+    gap:2% 2%;
 }
 
 .skills__title{
@@ -26,14 +26,16 @@
 }
 
 .skills__items{
-    width: 15%;
+    width: 20%;
     margin-bottom: 25px;
     height: 150px;
     background: #FFFFFF;
     padding: 70px 16px;
-    box-shadow: 4px 4px 15px 0px lightslategrey; 
-    /*margin-bottom: 25px;*/
+    box-shadow: 4px 4px 15px 0px lightslategrey;
     transition: all .7s ease-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .skills__items:hover{
     transform: scale(1.02);
