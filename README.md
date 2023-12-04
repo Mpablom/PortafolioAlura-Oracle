@@ -1,4 +1,4 @@
 # PortafolioAlura-Oracle
-#challengeoneportafolio2
-![image](https://user-images.githubusercontent.com/100524470/208283135-31b4a28d-7be2-414b-b213-337dfc333ba1.png)
+#challengeoneportafolio
+![Porfolio2](https://github.com/Mpablom/PortafolioAlura-Oracle/assets/100524470/c618454b-4374-43f1-9ad1-9b738e093f4c)
 Dejo Links de la app: https://my-portfolio-alura.netlify.app/ 
