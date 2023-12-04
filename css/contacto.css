@@ -4,6 +4,7 @@
 }
 .contacto{
     padding: 40px 0;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 .formcontato__center{
@@ -53,7 +54,7 @@
 }
 
 .formcontato__input::placeholder, .formcontato__textarea::placeholder{
-    color:#2A7AE4;
+    color:black;
 }
 
 .formcontato__textarea{

@@ -1,5 +1,6 @@
 html{
     width: 100%;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 *, body{
     margin: 0%;
@@ -7,6 +8,7 @@ html{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     max-width: 100%;
+    color: #EAF2FD !important;
 }
 
 ol,ul,li{
@@ -20,7 +22,7 @@ ol,ul,li{
 }
 
 .menu,.skills,.informacion, .hobbies, .experiencia{
-    background: #F5F5F5;
+    background: transparent !important;
 }
 .about, .formacion, .contacto{
     background: #EAF2FD;

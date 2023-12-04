@@ -66,26 +66,25 @@
     background: #F5F5F5;
     font-weight: 400;
     font-size: 16px;
-    color: #2A7AE4;
     padding: 11px;
     justify-content: center;
-    border: 1px solid #2A7AE4;
     margin: 0 12px 0 0;
     transition: all .3s ease-in;
-    box-shadow: 3px 3px 5px -1px lightslategrey; 
+    box-shadow: 2px 2px 3px -1px black; 
+    color: black !important;
 }
 .btn-repositorio:hover{
     transform: scale(1.1);
     background: #2A7AE4;
-    color: #F5F5F5;
+    color: #F5F5F5 !important;
 }
 
 .img-encritador, .img-ahorcado, .img-alurageek {
-    box-shadow: 1px 1px 5px -1px lightslategrey; 
-    transition: all .9s ease-in-out;
+    box-shadow: 1px 1px 5px -1px black; 
+    transition: all .6s ease-in-out;
 }
 .img-encritador:hover, .img-ahorcado:hover, .img-alurageek:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .btn-demo{
@@ -98,14 +97,13 @@
     color: #F5F5F5;
     padding: 11px;
     justify-content: center;
-    transition: all .7s ease-in;
-    box-shadow: 3px 3px 5px -1px lightslategrey; 
+    transition: all .3s ease-in;
+    box-shadow: 2px 2px 3px -1px black; 
 }
 .btn-demo:hover{
     transform: scale(1.1);
     background: #F5F5F5;
-    color: #2A7AE4;
-    border: 1px solid #2A7AE4;
+    color: black !important;
 }
 
 /*Mobile*/
