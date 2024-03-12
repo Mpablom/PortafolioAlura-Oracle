@@ -1,13 +1,11 @@
 .hobbies{
-    padding: 35px 0;
+    padding: 6% 0;
 }
 
 .hobbies__line{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 90%;
-    margin-left: 5%;
+    justify-content: space-around;
 }
 
 .hobbies__title{
@@ -19,14 +17,15 @@
 }
 
 .hobbies__box{
-    width: 15%;
-  height: 150px;
-  box-shadow: 0px 0px 5px -1px white;
-  transition: all .3s ease-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 365px;
+    width: 10%;
+    box-shadow: 4px 4px 15px 0px lightslategrey;
+    transition: all .3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    background: whitesmoke;
+    padding: 2.5%;
 }
 .hobbies__box:hover{
     transform: scale(1.06);

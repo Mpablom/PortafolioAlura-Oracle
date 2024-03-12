@@ -1,6 +1,7 @@
 html{
     width: 100%;
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background: rgba(255, 255, 255);
+    scroll-behavior: smooth;
 }
 *, body{
     margin: 0%;
@@ -8,11 +9,19 @@ html{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     max-width: 100%;
-    color: #EAF2FD !important;
+    color: #353535 !important;
+}
+header{
+    background:lightslategray;
+    height: 100vh;
 }
 
 ol,ul,li{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 .contenedor{
@@ -31,9 +40,6 @@ ol,ul,li{
 @media screen and (max-width: 768px){
     ::-webkit-scrollbar {
         display: none;
-    }
-    .contenedor{
-        width: 90%;
     }
 }
 
