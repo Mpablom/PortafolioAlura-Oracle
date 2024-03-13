@@ -4,8 +4,9 @@
 
 .caja__formacion{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: normal;
+    justify-content: center;
+    gap: 4%;
 }
 
 .titulo__formacion{
@@ -24,16 +25,16 @@
     box-shadow: 4px 4px 15px 0px lightslategrey; 
     height: 100%;
     margin-bottom: 2%;
-    width: 40%;
+    width: 200px;
     border-radius: 20px;
 }
 .formacion__imagen{
     width: 120px;
 
 }
-.formacion__items{
+/* .formacion__items{
     width: 31.33%;
-}
+} */
 
 .formacion__descripcion{
     font-weight: 700;
@@ -48,6 +49,10 @@
 
     .formacion{
         margin: 0px;
+    }
+    .caja__formacion{
+        flex-direction: column;
+        padding: 0 0 0 25%;
     }
 
     .box__imagen{
