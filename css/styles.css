@@ -30,10 +30,10 @@ a{
     margin: 0 auto; 
 }
 
-.menu,.skills,.informacion, .hobbies, .experiencia{
+.menu,.skills,.informacion{
     background: transparent !important;
 }
-.about, .formacion, .contacto{
+.hobbies, .formacion, .contacto, .experiencia{
     background: #EAF2FD;
 }
 

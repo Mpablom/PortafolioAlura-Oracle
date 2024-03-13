@@ -3,9 +3,8 @@
     margin-left: 20%;
 }
 .contacto{
-    padding: 40px 0;
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
-}
+    padding: 6% 0;
+ }
 
 .formcontato__center{
     display: flex;
@@ -14,8 +13,8 @@
 
 .formcontato__img{
     display: block;
-    width: 40%;
-    height: 500px;
+    width: 20%;
+    height: 250px;
     border-radius: 100%;
 }
 
@@ -41,7 +40,7 @@
 }
 
 .formcontato__input{
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 50px;
     background: #FFFFFF;
@@ -58,9 +57,9 @@
 }
 
 .formcontato__textarea{
-    border: none;
+    border: 1px solid rgba(0,0,0,0.2);
     width: 100%;
-    height: 96px;
+    height: 100px;
     background: #FFFFFF;
     resize: none;
 }

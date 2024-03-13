@@ -1,14 +1,11 @@
 .formacion{
-    padding: 35px 0;
-    background: transparent;
+    padding: 8% 0;
 }
 
 .caja__formacion{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 90%;
-    margin-left: 5%;
+    justify-content: space-around;
 }
 
 .titulo__formacion{
@@ -25,14 +22,11 @@
     align-items: center;
     background: #FFFFFF;
     box-shadow: 4px 4px 15px 0px lightslategrey; 
-    height: 200px;
-    margin-bottom: 20px;
-    transition: all .7s ease-out;
+    height: 100%;
+    margin-bottom: 2%;
+    width: 40%;
+    border-radius: 20px;
 }
-.box__imagen:hover{
-    transform: scale(1.02);
-}
-
 .formacion__imagen{
     width: 120px;
 
