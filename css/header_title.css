@@ -81,6 +81,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2%;
 }
  .boton-ver a {
         font-size: 24px;
@@ -164,6 +165,9 @@
     .contenido-informacion img{
         width: 45%;
         margin-bottom: 1.5rem;
+    }
+    .boton-ver{
+        padding-bottom: 6%;
     }
 }
 
